@@ -32,8 +32,6 @@ class LayoutBreak final : public Element {
             PAGE, LINE, SECTION, NOBREAK
             };
    private:
-      Q_ENUM(Type)
-
       qreal lw;
       QPainterPath path;
       QPainterPath path2;
